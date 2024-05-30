@@ -1,0 +1,82 @@
+/* Banner.css */
+/* App.css */
+/* App.css */
+/* App.css */
+.banner-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  /* Ensures the image covers the container without stretching */
+}
+
+@media (max-width: 768px) {
+  .banner-container {
+    height: 40vh;
+  }
+
+  .banner-image {
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-container {
+    height: 30vh;
+  }
+
+  .banner-image {
+    height: 100%;
+  }
+}
+
+.game-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.game-card {
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+.game-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.game-card span {
+  position: absolute;
+  top: -10px;
+  right: 40px;
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.game-card button {
+  background-color: yellow !important;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+/* .translate-rank {
+    transform: translate(-50%, -20px);
+  } */
